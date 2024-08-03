@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Empadas Deliciosas - Contato</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="../css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="bg-warning text-center py-3">
+      <h1>Empadas Deliciosas</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cardapio.html">Cardápio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre Nós</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-5">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h2 class="card-title text-warning">Entre em Contato</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Nome</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Seu Nome"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Seu Email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Mensagem</label>
+              <textarea
+                class="form-control"
+                id="message"
+                rows="3"
+                placeholder="Sua Mensagem"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning text-white">
+              Enviar
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="card mb-4">
+        <div class="card-body">
+          <h3 class="card-title text-warning">Nossos Parceiros</h3>
+          <div class="row text-center">
+            <div class="col-md-4 mb-4">
+              <img
+                src="../imgs/parceiro1.png"
+                class="rounded-circle mb-3"
+                width="100"
+                height="100"
+                alt="mc"
+              />
+            </div>
+            <div class="col-md-4 mb-4">
+              <img
+                src="../imgs/parceiro2.png"
+                class="rounded-circle mb-3"
+                width="100"
+                height="100"
+                alt="ifood"
+              />
+            </div>
+            <div class="col-md-4 mb-4">
+              <img
+                src="../imgs/parceiro3.png"
+                class="rounded-circle mb-3"
+                width="100"
+                height="100"
+                alt="habibi"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-4">
+        <div class="card-body">
+          <h3 class="card-title text-warning">Encontre-nos no Google Maps</h3>
+          <div class="map-container">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.174723824628!2d-46.656571684469665!3d-23.595019467528394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8772ed5f1%3A0x2d7e5e6bb9a5a73!2sAv.%20Paulista%2C%201374%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1sen!2sbr!4v1608740488924!5m2!1sen!2sbr"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
